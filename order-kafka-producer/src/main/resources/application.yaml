@@ -1,0 +1,10 @@
+server:
+    port : 8084
+spring:
+    application:
+        name: order-kafka-producer
+    kafka:
+        bootstrap-servers: localhost:9092
+app:
+    topic:
+        example: OrderEntity
